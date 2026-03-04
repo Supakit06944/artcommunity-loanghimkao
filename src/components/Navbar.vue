@@ -35,6 +35,15 @@ const changeLanguage = (code) => {
   state.locale = code;
   isMobileMenuOpen.value = false;
 };
+
+const scrollToSection = (e, id) => {
+  e.preventDefault();
+  const element = document.getElementById(id.replace("#", ""));
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth" });
+    isMobileMenuOpen.value = false;
+  }
+};
 </script>
 
 <template>
@@ -50,6 +59,7 @@ const changeLanguage = (code) => {
       <!-- Logo -->
       <a
         href="#home"
+        @click="scrollToSection($event, '#home')"
         class="text-2xl font-serif font-bold tracking-tight text-market-accent"
       >
         {{ t("nav.brand") }}
@@ -62,6 +72,7 @@ const changeLanguage = (code) => {
             v-for="link in navLinks"
             :key="link.name"
             :href="link.href"
+            @click="scrollToSection($event, link.href)"
             class="text-sm font-medium hover:text-market-accent transition-colors duration-300"
             :class="isScrolled ? 'text-market-charcoal' : 'text-white'"
           >
@@ -197,7 +208,7 @@ const changeLanguage = (code) => {
             v-for="link in navLinks"
             :key="link.name"
             :href="link.href"
-            @click="isMobileMenuOpen = false"
+            @click="scrollToSection($event, link.href)"
             class="text-lg font-medium text-market-charcoal hover:text-market-accent transition-colors duration-300"
           >
             {{ link.name }}

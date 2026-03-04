@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- House Background/Body -->
+  <path d="M20 45 L50 20 L80 45 L80 85 L20 85 Z" fill="#60a5fa" />
+  <!-- Roof Detail -->
+  <path d="M15 48 L50 18 L85 48" stroke="#334155" stroke-width="6" fill="none" stroke-linecap="round" />
+  <!-- Stylized Leaf/Artistic element -->
+  <path d="M50 40 Q65 40 65 55 Q65 70 50 70 Q35 70 35 55 Q35 40 50 40 Z" fill="white" />
+  <path d="M50 45 L50 65" stroke="#60a5fa" stroke-width="3" stroke-linecap="round" />
+  <path d="M50 55 L60 50" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" />
+  <path d="M50 60 L40 55" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" />
+  <!-- Door -->
+  <rect x="42" x-radius="2" y-radius="2" y="70" width="16" height="15" fill="#334155" />
+</svg>

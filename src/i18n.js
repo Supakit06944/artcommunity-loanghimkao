@@ -22,8 +22,8 @@ export const translations = {
         desc: "Supporting regional farmers and sustainable producers.",
       },
       item2: {
-        title: "Live Music & Workshops",
-        desc: "Curated acoustic sessions and creative experiences.",
+        title: "Workshops",
+        desc: "Curated creative experiences for all ages.",
       },
       item3: {
         title: "Pet Friendly Community",
@@ -172,8 +172,8 @@ export const translations = {
         desc: "สนับสนุนเกษตรกรในพื้นที่และผู้ผลิตที่ยั่งยืน",
       },
       item2: {
-        title: "ดนตรีสดและเวิร์กช็อป",
-        desc: "ฟังดนตรีอะคูสติกและกิจกรรมสร้างสรรค์สำหรับทุกวัย",
+        title: "เวิร์กช็อป",
+        desc: "กิจกรรมสร้างสรรค์สำหรับทุกวัย",
       },
       item3: {
         title: "ชุมชนที่เป็นมิตรกับสัตว์เลี้ยง",
@@ -320,8 +320,8 @@ export const translations = {
       desc: "“Loang Him Kao” 是位于清迈府讪甘烹县的一个工艺社区，由 Chatchawan Thongdeleat 发起。他邀请了热爱手工艺、艺术、慢生活和兰纳文化的朋友及兄弟姐妹，共同建立村庄，并将家园开放为展示和销售产品的可爱店面。\n\n这里的商店涵盖零售和餐饮，例如 Meena Rice Based Cuisine。此外，每个周末都有 Cham Cha 集市，每年年底会举办 Kad Ton Yon 工艺市集，还有 Heart Space，这是一个供年轻一代使用的共享办公和活动空间。\n\nLoang Him Kao 的愿景是成为一个居民感到幸福，并准备好向每一位访客传递这份幸福的社区。",
       item1: { title: "当地有机产品", desc: "支持当地农民和可持续生产者。" },
       item2: {
-        title: "现场音乐与工作坊",
-        desc: "精心策划的现场音乐展示及创意体验。",
+        title: "研习班",
+        desc: "精心策划的创意体验。",
       },
       item3: {
         title: "宠物友好社区",
