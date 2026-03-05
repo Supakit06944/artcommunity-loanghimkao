@@ -11,6 +11,7 @@ import poengLogo from "../assets/โลโก้เปิงใจ๋.webp";
 import usaLogo from "../assets/โลโก้บ้านอุษา.webp";
 import andamanLogo from "../assets/โลโก้อันดามันมัดย้อม.jpg";
 import lanfaiLogo from "../assets/โลโก้ล้านฝ้ายงาม.jpg";
+import gikLogo from "../assets/โลโก้บ้านกิ๊ก.webp";
 
 // Map logos to the 9 shops in order
 const shopImages = [
@@ -23,6 +24,7 @@ const shopImages = [
   usaLogo,
   andamanLogo,
   lanfaiLogo,
+  gikLogo,
 ];
 
 const shops = computed(() => {

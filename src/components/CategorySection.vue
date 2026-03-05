@@ -4,12 +4,19 @@ import { t } from "../i18n";
 
 import soapImg from "../assets/ทำสบู่จากธรรมชาติ.webp";
 import candleImg from "../assets/ทำเทียนหอม.webp";
-import dyeImg from "../assets/ย้อมสีธรรมชาติ.webp";
+import andamanDyeImg from "../assets/ย้อมสีอันดามัน.jpg";
 import trayImg from "../assets/ระบายสีถาดไม้.webp";
 import bagImg from "../assets/วาดภาพบนกระเป๋าผ้า.webp";
 import artImg from "../assets/เวิร์กชอปศิลปะ.webp";
 
-const categoryImages = [soapImg, candleImg, dyeImg, trayImg, bagImg, artImg];
+const categoryImages = [
+  soapImg,
+  candleImg,
+  andamanDyeImg,
+  trayImg,
+  bagImg,
+  artImg,
+];
 
 const categories = computed(() => {
   const items = t("categories.items");

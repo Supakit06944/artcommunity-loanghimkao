@@ -52,12 +52,12 @@ export const translations = {
           price: "฿950",
         },
         {
-          title: "Natural Dyeing",
-          desc: "Discover the art of traditional natural dyeing techniques.",
+          title: "Andaman Indigo Dyeing",
+          desc: "Experience the unique art of Andaman indigo tie-dyeing.",
           detailedDesc:
-            "Explore the ancient craft of extracting color from plants, fruits, and roots. We'll guide you through the process of preparing fabrics and creating stunning, sustainable colors. Perfect for textile enthusiasts.",
+            "Join our special workshop to learn the unique patterns and techniques of Andaman indigo dyeing. We use high-quality natural indigo and traditional methods to create stunning, one-of-a-kind textiles. All materials are provided.",
           duration: "3 Hours",
-          price: "฿1,500",
+          price: "฿1,200",
         },
         {
           title: "Wooden Tray Painting",
@@ -140,6 +140,10 @@ export const translations = {
           title: "Lan Fai Ngam",
           desc: "Carrying the Lua ethnic heritage of traditional weaving for daily use. Features exquisite 'Tin Jok' textiles from Mae Chaem district, the homeland of the weavers.",
         },
+        {
+          title: "Baan Gik",
+          desc: "Bright colors and Indian-style decorations make this shop stand out to anyone passing by. It features clothing and bags with adorable patterns, created by Mother Gik who translated her children's childhood drawings into unique embroidery designs, showcasing a child's artistic perspective.",
+        },
       ],
     },
     footer: {
@@ -202,12 +206,12 @@ export const translations = {
           price: "950 บาท",
         },
         {
-          title: "ย้อมสีธรรมชาติ",
-          desc: "สัมผัสเสน่ห์ของการย้อมผ้าด้วยสีจากธรรมชาติ",
+          title: "มัดย้อมสีครามอันดามัน",
+          desc: "สัมผัสเสน่ห์ของการทำผ้ามัดย้อมสีครามสูตรอันดามัน",
           detailedDesc:
-            "ค้นพบความมหัศจรรย์ของสีสันจากพืชพรรณธรรมชาติ ผลไม้ และรากไม้ เรียนรู้ขั้นตอนการเตรียมผ้าและเทคนิคการย้อมที่ให้สีสันสวยงามและเป็นมิตรต่อสิ่งแวดล้อม เหมาะสำหรับผู้ที่รักงานผ้า",
+            "ร่วมเวิร์กช็อปพิเศษเพื่อเรียนรู้ลวดลายและเทคนิคเฉพาะตัวของการย้อมสีครามอันดามัน เราใช้ครามธรรมชาติคุณภาพสูงและกรรมวิธีแบบดั้งเดิมเพื่อให้ได้ผ้าที่มีสีสันสวยงามและมีเอกลักษณ์ใบเดียวในโลก พร้อมอุปกรณ์ครบครัน",
           duration: "3 ชั่วโมง",
-          price: "1,500 บาท",
+          price: "1,200 บาท",
         },
         {
           title: "ระบายสีถาดไม้",
@@ -291,6 +295,10 @@ export const translations = {
           title: "ล้านฝ้ายงาม (Lan Fai Ngam)",
           desc: "ด้วยสายเลือดของบรรพบุรุษชาวลัวะที่ส่งต่อภูมิปัญญาการทอผ้าเพื่อสวมใส่ในชีวิตประจำวันมาอย่างยาวนานจนกลายเป็นวิถีชีวิต ถ่ายทอดออกมาสู่เสื้อผ้าและผ้าตีนจกของอำเภอแม่แจ่มซึ่งเป็นถิ่นฐานดั้งเดิม",
         },
+        {
+          title: "บ้านกิ๊ก",
+          desc: "สีสันสดใสตกแต่งสไตล์อินเดียที่ใครเดินผ่านเป็นต้องสะดุดตา คือที่ตั้งของร้านขายเสื้อผ้า กระเป๋า ลวดลายน่ารัก ที่เกิดจากการที่คุณแม่กิ๊กนำเอาลวดลายที่ลูกๆ เคยวาดเล่นตอนยังเด็กมาถ่ายทอดด้วยการปักลงเป็นลายผ้าต่างๆ กลายเป็นทั้งลวดลายที่ทั้งสวยงาม น่ารัก แถมยังได้แสดงให้เห็นมุมมองของเด็กๆ",
+        },
       ],
     },
     footer: {
@@ -350,12 +358,12 @@ export const translations = {
           price: "฿950",
         },
         {
-          title: "天然染色",
-          desc: "探索传统天然染色技术的艺术魅力。",
+          title: "安达曼蓝染体验",
+          desc: "体验安达曼独特的蓝染扎染艺术。",
           detailedDesc:
-            "探索从植物、水果和树根中提取颜色的古老工艺。我们将指导您准备织物并创造出惊人的、可持续的颜色。非常适合纺织爱好者。",
+            "加入我们的特别研习班，学习安达曼蓝染的独特图案和技术。我们使用高质量的天然蓝染料和传统方法，创造出令人惊叹的、独一无二的纺织品。提供所有材料。",
           duration: "3 小时",
-          price: "฿1,500",
+          price: "฿1,200",
         },
         {
           title: "木托盘绘画",
@@ -388,54 +396,58 @@ export const translations = {
       desc: "探索我们社区内的当地精品店和独特商店。",
       items: [
         {
-          title: "Meena Rice Based Cuisine",
-          desc: "Northern Thai cuisine specialty with a focus on rice variety. Based on the concept 'Because of the field, there is rice', we present signature '5-color rice' and traditional dishes.",
-          hours: "Daily 10:00 - 20:30",
+          title: "Meena Rice Based Cuisine (有田就有米)",
+          desc: "位于米仓氛围中的泰南料理。基于‘因为有田，所以有米’的理念，我们通过招牌的‘五色米饭’以及各种传统菜肴来展示大米的价值。",
+          hours: "每日 10:00 - 20:30",
           social: "FB/IG: Meena rice based cuisine",
           phone: "095-693-9586, 085-508-3307",
           fbLink: "https://www.facebook.com/meena.rice.based",
         },
         {
-          title: "The Space",
-          desc: "Experience slow living in a 300 sq.m. cultural wooden house. Features 2 king bedrooms with AC, 2 bathrooms, full kitchen, and a private floor with bean bags. Perfect for family and friends to enjoy Lanna culture.",
-          hours: "Daily Available",
+          title: "บ้านพัก / The Space",
+          desc: "专为家庭和朋友设计的 300 平方米居住空间。包含 2 间配有大床和空调的舒适卧室，2 间备有洗漱用品的干净浴室，以及设备齐全的厨房（微波炉、冰箱、炉灶）。二楼设有带豆袋的起居区，一楼设有带吊床的私人花园。非常适合在清迈体验舒适且充满文化气息的‘慢生活’。",
+          hours: "每日均可预订",
           social: "FB: lannalocalstay",
           phone: "+66-870-551-149",
           email: "166lannalivingspace@gmail.com",
           fbLink: "https://www.facebook.com/lannalocalstay",
         },
         {
-          title: "Werngchamchaa",
-          desc: "Creative space for crafts, art, music, and workshops. Features a coffee shop, reading area, and inspired atmosphere.",
-          hours: "Mon - Sun (Closed Wed) 10:00 - 16:00",
+          title: "เวิ้งฉำฉา (Werngchamchaa)",
+          desc: "为设计师和手工艺爱好者打造的创意空间。集艺术、音乐、手工艺、研习班和咖啡馆于一体。是放松、阅读和寻找灵感的理想场所。",
+          hours: "周一至周日（周三休息）10:00 - 16:00",
           phone: "093-219-1909",
           fbLink: "https://www.facebook.com/WerngChamchaa",
         },
         {
-          title: "Heuan Saboo",
-          desc: "Organic handmade soap brand. Using natural ingredients like rice, coconut oil, and pink salt for healthy skin care without chemicals.",
-          hours: "Daily 10:00 - 17:00",
+          title: "เฮือนสบู่ (Heuan Saboo)",
+          desc: "手工有机肥皂品牌，源于对皮肤健康的关爱。由大米、椰子油和粉盐等天然成分制成，确保无化学残留。",
+          hours: "每日 10:00 - 17:00",
           social: "FB/Line: @khunkawee",
         },
         {
-          title: "Heuan Na Jai",
-          desc: " Mae Chaem traditional house showcasing ethnic hand-embroidered textiles and natural dyes. Includes a cozy cafe floor.",
+          title: "เฮือน ณ ใจ๋ (Heuan Na Jai)",
+          desc: "来自梅查姆的传统木屋，通过手工刺绣纺织品和天然染料展示民族特色。一楼设有温馨的咖啡馆。",
         },
         {
-          title: "Poeng Jai",
-          desc: "Heritage hand-embroidered cotton clothing in contemporary patterns.",
+          title: "เปิงใจ๋ (Poeng Jai)",
+          desc: "独特的刺绣棉布店，根植于家族传承，将传统编织转化为现代图案。",
         },
         {
-          title: "Baan Usa",
-          desc: "Contemporary indigo-dyed clothing with unique patterns. Handmade silver crafts and bags collections.",
+          title: "บ้านอุษา (Baan Usa)",
+          desc: "具有独特手工缝制图案的现代蓝染服装。还提供民族银饰和手工包。",
         },
         {
-          title: "Andaman Mud Yom",
-          desc: "Distinctive indigo tie-dye house with various patterns. Offers hands-on dyeing workshops.",
+          title: "อันดามันมัดย้อม (Andaman Mud Yom)",
+          desc: "专注于充满活力的蓝染扎染纺织品。为有兴趣学习传统染色技术的人提供实践研习班。",
         },
         {
-          title: "Lan Fai Ngam",
-          desc: "Traditional Lua weaving heritage and Mae Chaem 'Tin Jok' textiles for modern daily life.",
+          title: "ล้านฝ้ายงาม (Lan Fai Ngam)",
+          desc: "传承 Lua 民族传统编织遗产。特色是来自织女故乡梅查姆县的精美‘Tin Jok’纺织品。",
+        },
+        {
+          title: "Baan Gik (吉克之家)",
+          desc: "鲜艳的色彩和印度风格的装饰让这家店在路人眼中格外引人注目。店内售卖带有可爱图案的服装和包袋，这些图案是吉克妈妈将孩子们儿时的涂鸦转化为独特的刺绣设计而成，展现了孩子们纯真的艺术视角。",
         },
       ],
     },
