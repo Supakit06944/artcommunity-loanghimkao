@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection.vue";
 import FeaturesSection from "./components/FeaturesSection.vue";
 import ShopSection from "./components/ShopSection.vue";
 import CategorySection from "./components/CategorySection.vue";
+import MapSection from "./components/MapSection.vue";
 import Footer from "./components/Footer.vue";
 </script>
 
@@ -13,6 +14,7 @@ import Footer from "./components/Footer.vue";
     <main>
       <HeroSection />
       <FeaturesSection />
+      <MapSection />
       <ShopSection />
       <CategorySection />
     </main>

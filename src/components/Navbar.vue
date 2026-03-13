@@ -20,6 +20,7 @@ onUnmounted(() => {
 const navLinks = computed(() => [
   { name: t("nav.home"), href: "#home" },
   { name: t("nav.about"), href: "#about" },
+  { name: t("nav.map"), href: "#map" },
   { name: t("nav.shops"), href: "#shops" },
   { name: t("nav.workshops"), href: "#workshops" },
   { name: t("nav.contact"), href: "#contact" },

@@ -9,6 +9,7 @@ export const translations = {
       shops: "Shops",
       workshops: "Workshops",
       contact: "Contact",
+      map: "Map",
     },
     hero: {
       subtitle: "A curated weekend market in Chiang Mai",
@@ -154,6 +155,10 @@ export const translations = {
       address: "Loang Him Kao, San Klang, San Kamphaeng, Chiang Mai 50130",
       line: "LINE",
     },
+    map: {
+      title: "Community Map",
+      desc: "Navigating through Loang Him Kao made easy. Find your favorite shops and workshop areas.",
+    },
   },
   th: {
     nav: {
@@ -163,6 +168,7 @@ export const translations = {
       shops: "ร้านค้า",
       workshops: "เวิร์กช็อป",
       contact: "ติดต่อ",
+      map: "แผนที่",
     },
     hero: {
       subtitle: "ตลาดนัดไลฟ์สไตล์ใจกลางเชียงใหม่",
@@ -309,6 +315,10 @@ export const translations = {
       address: "โหล่งฮิมคาว สันกลาง อำเภอสันกำแพง เชียงใหม่ 50130",
       line: "LINE",
     },
+    map: {
+      title: "แผนที่ชุมชนโหล่งฮิมคาว",
+      desc: "เดินเที่ยวโหล่งฮิมคาวได้ง่ายขึ้นด้วยแผนที่ชุมชน ค้นหาตำแหน่งร้านค้าและพื้นที่กิจกรรมที่คุณสนใจ",
+    },
   },
   cn: {
     nav: {
@@ -318,6 +328,7 @@ export const translations = {
       shops: "商店",
       workshops: "研习班",
       contact: "联系我们",
+      map: "地图",
     },
     hero: {
       subtitle: "清迈精心策划的周末市集",
@@ -459,6 +470,10 @@ export const translations = {
       address:
         "โหล่งฮิมคาว (Loang Him Kao), San Klang, San Kamphaeng, Chiang Mai 50130",
       line: "LINE",
+    },
+    map: {
+      title: "社区地图",
+      desc: "轻松游览 Loang Him Kao。找到您最喜欢的商店和工作坊区域。",
     },
   },
 };
